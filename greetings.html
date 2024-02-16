@@ -95,13 +95,13 @@
 
 function dispalyGreetings(today){
         hrs = today.getHours();
-        name="ARRANQUEMOS LA MAÑANA :)"
+        name="NEGRO OSCURO"
         if (hrs < 12)
-            greet = 'YA FALTA POCO ;) '+name;
+            greet = 'ARRANQUEMOS LA MAÑANA :) '+name;
         else if (hrs >= 13 && hrs <= 17)
-            greet = 'HASTA MAÑANA :D '+name;
+            greet = 'YA FALTA POCO :D '+name;
         else if (hrs >= 17 && hrs <= 24)
-            greet = 'Good Evening  '+name;
+            greet = 'HASTA MAÑANA ;)  '+name;
         document.getElementById('greet').innerHTML = greet;
 
     }
